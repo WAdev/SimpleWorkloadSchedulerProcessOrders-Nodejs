@@ -61,7 +61,7 @@ function initDBConnection() {
 		dbCredentials.port = 111;
 		dbCredentials.user = "insert your cloudant user";
 		dbCredentials.password = "insert your cloudant password";
-		dbCredentials.url = "insert your cloudant url;
+		dbCredentials.url = "insert your cloudant url";
 	}
 	 
 	cloudant = require('cloudant')(dbCredentials.url);
